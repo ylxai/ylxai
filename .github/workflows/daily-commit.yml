@@ -1,0 +1,28 @@
+name: Daily Contribution
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  contribute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Commit daily activity
+        run: |
+          git config user.name "ylxai"
+          git config user.email "ylexrapper@gmail.com"
+          echo "$(date -u +'%Y-%m-%d %H:%M UTC')" >> activity.log
+          git add activity.log
+          git commit -m "Daily contribution $(date -u +%F)" || echo "No changes to commit"
+
+      - name: Push with PAT
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin HEAD:main

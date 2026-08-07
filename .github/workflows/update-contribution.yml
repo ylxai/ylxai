@@ -1,0 +1,36 @@
+name: Update Contribution Animation
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download generator script
+        run: curl -sL https://raw.githubusercontent.com/Man0dya/Readme-Contribution-Graph-Generator/main/scripts/generate-svg.cjs -o generate-svg.cjs
+
+      - name: Generate contribution animations
+        env:
+          CONTRIBUTION_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: node generate-svg.cjs
+
+      - name: Commit updated SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          rm -f generate-svg.cjs contribution-animation.svg contribution-animation-dark.svg github-contribution-animation.svg github-contribution-animation-dark.svg
+          git config user.name "ylxai"
+          git config user.email "ylexrapper@gmail.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git add -A
+          git diff --cached --quiet || git commit -m "Update contribution animation $(date -u +%F)"
+          git push origin HEAD:main

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64">
+  <defs>
+    <linearGradient id="strip" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="64" fill="url(#strip)" opacity="0.08"/>
+
+  <line x1="0" y1="0" x2="900" y2="0" stroke="url(#strip)" stroke-width="2">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <g fill="url(#strip)">
+    <circle cx="70" cy="32" r="3">
+      <animate attributeName="cx" values="70;830" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="32" r="2.2">
+      <animate attributeName="cx" values="150;760" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="32" r="1.6">
+      <animate attributeName="cx" values="250;830" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="17s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="32" r="2.6">
+      <animate attributeName="cx" values="400;700" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.2;1" dur="9s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

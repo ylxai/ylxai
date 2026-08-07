@@ -13,9 +13,6 @@
     <img src="https://img.shields.io/badge/Repositories-35+-38BDF8?style=for-the-badge" alt="Repositories" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=ylxai&color=38BDF8&style=for-the-badge" alt="Profile views" />
-  <a href="https://github.com/ylxai/ylxai/actions/workflows/update-readme.yml">
-    <img src="https://github.com/ylxai/ylxai/actions/workflows/update-readme.yml/badge.svg" alt="README auto-update" />
-  </a>
 </p>
 
 ---
@@ -28,29 +25,6 @@ Full-stack developer building **photography SaaS platforms** ([Hafiportrait](htt
 - 🤖 Agentic AI systems & MCP-style tooling
 - ⛓️ CPU-only Proof-of-Work (Cereblix CRB)
 - 📱 iOS tweaks, Flutter apps & terminal tooling
-
-## 💻 A Little More About Me
-
-```javascript
-const ylxai = {
-  name: "Irvan Nandika",
-  code: ["TypeScript", "JavaScript", "Python", "Rust", "Swift", "Dart", "C#"],
-  tools: ["Node.js", "Next.js", "React", "Flutter", ".NET", "Docker"],
-  architecture: ["SaaS platforms", "agentic AI systems", "event-driven", "microservices"],
-  currentlyBuilding: {
-    photographySaaS: "Hafiportrait",
-    blockchain: "Cereblix (CPU-only PoW)",
-    ai: "agentic infrastructure & MCP tooling",
-    mobile: "iOS tweaks & Flutter apps",
-  },
-  funFact: "Reverse-engineers pro photography tools for fun",
-};
-```
-
-## 📈 Coding Activity
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
 
 ## 🛠️ Tech Stack
 
@@ -106,11 +80,6 @@ const ylxai = {
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ylxai&theme=radical&no-frame=true&margin-w=10&column=6" alt="GitHub trophies" />
 </p>
-
-## 🔥 Recent Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ## 🐍 Contribution Snake
 

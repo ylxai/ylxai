@@ -3,32 +3,32 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=38BDF8&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B+I'm+Irvan+Nandika;Full-Stack+Developer;Photography+SaaS+Builder;AI+%26+Agentic+Systems;Blockchain+%26+PoW+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3500&pause=500&color=38BDF8&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B+I'm+Irvan+Nandika;Founder+%40+YLX+%E2%80%94+AI+%26+SaaS;We+ship+%F0%9F%9A%80+ylex.my.id;Photography+SaaS+%2B+Agentic+AI" alt="Typing SVG" />
 </p>
 
 <p align="center">
+  <a href="https://ylex.my.id"><img src="https://img.shields.io/badge/LIVE-ylex.my.id-38BDF8?style=for-the-badge&logo=vercel&logoColor=white" alt="Live product" /></a>
   <a href="https://github.com/ylxai?tab=followers">
     <img src="https://img.shields.io/github/followers/ylxai?label=Followers&style=for-the-badge&color=38BDF8" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/ylxai/ylxai">
-    <img src="https://img.shields.io/github/stars/ylxai?label=Total%20Stars&style=for-the-badge&color=38BDF8" alt="Total stars" />
-  </a>
-  <a href="https://github.com/ylxai?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-35+-38BDF8?style=for-the-badge" alt="Repositories" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=ylxai&color=38BDF8&style=for-the-badge" alt="Profile views" />
 </p>
 
 ---
 
-## 🚀 About Me
+## 🚀 YLX — AI & SaaS Studio
 
-Full-stack developer building **photography SaaS platforms** ([Hafiportrait](https://github.com/ylxai/hafiportrait-saas)), **agentic AI infrastructure**, and **cryptocurrency** experiments. Currently deep in:
+I'm **Irvan Nandika**, Founder of **[YLX](https://ylex.my.id)** — a small startup studio building **AI-powered SaaS** for photographers and creators in Indonesia.
 
-- 🖼️ Photography SaaS & automated proofing pipelines
-- 🤖 Agentic AI systems & MCP-style tooling
-- ⛓️ CPU-only Proof-of-Work (Cereblix CRB)
-- 📱 iOS tweaks, Flutter apps & terminal tooling
+**Live product:** 🌐 **[ylex.my.id](https://ylex.my.id)** — Galeri Foto Pernikahan digital (Vol. I · 2026). Fotografer upload, klien buka galeri via nama/link.
+
+**What we do:**
+- 🖼️ **Photography SaaS** — gallery, proofing & automated pipelines ([ylx](https://github.com/ylxai/ylx) · [hafiportrait-saas](https://github.com/ylxai/hafiportrait-saas))
+- 🤖 **Agentic AI infra** — MCP-style tooling & automation
+- ☁️ **Multi-cloud storage** — one endpoint for all uploads ([storage-gateway](https://github.com/ylxai/storage-gateway))
+- ⛓️ **R&D** — CPU-only PoW experiments ([cereblix](https://github.com/ylxai/cereblix))
+
+> Startup mode: ship fast, measure, iterate. Monorepo aktif: [`ylxai/ylx`](https://github.com/ylxai/ylx) (Turborepo · apps + packages · docs: PRODUCT / ROADMAP / DESIGN).
 
 ## 🛠️ Tech Stack
 
@@ -46,15 +46,29 @@ Full-stack developer building **photography SaaS platforms** ([Hafiportrait](htt
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ylxai&theme=radical&hide_border=true&background=0d1117&stroke=38BDF8&ring=38BDF8&fire=38BDF8&currStreakNum=38BDF8" alt="GitHub streak" />
 </p>
 
-## 📌 Featured Projects
+## 📌 Flagship — YLX Products
 
 <table>
   <tr>
+    <td align="center">
+      <a href="https://github.com/ylxai/ylx">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ylxai&repo=ylx&theme=radical&hide_border=true&bg_color=0d1117" alt="ylx" />
+      </a>
+      <br />🚀 <b>YLX Monorepo</b> — Live: <a href="https://ylex.my.id">ylex.my.id</a>
+    </td>
     <td align="center">
       <a href="https://github.com/ylxai/hafiportrait-saas">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=ylxai&repo=hafiportrait-saas&theme=radical&hide_border=true&bg_color=0d1117" alt="hafiportrait-saas" />
       </a>
       <br />🖼️ Photography SaaS Platform
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ylxai/storage-gateway">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ylxai&repo=storage-gateway&theme=radical&hide_border=true&bg_color=0d1117" alt="storage-gateway" />
+      </a>
+      <br />☁️ Multi-Cloud Storage Gateway
     </td>
     <td align="center">
       <a href="https://github.com/ylxai/cereblix">
@@ -63,21 +77,9 @@ Full-stack developer building **photography SaaS platforms** ([Hafiportrait](htt
       <br />⛓️ CPU-only PoW Coin (NeuroMorph)
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/ylxai/NewTerm">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ylxai&repo=NewTerm&theme=radical&hide_border=true&bg_color=0d1117" alt="NewTerm" />
-      </a>
-      <br />📱 iOS Terminal with AI
-    </td>
-    <td align="center">
-      <a href="https://github.com/ylxai/storage-gateway">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=ylxai&repo=storage-gateway&theme=radical&hide_border=true&bg_color=0d1117" alt="storage-gateway" />
-      </a>
-      <br />☁️ Multi-Cloud Storage Gateway
-    </td>
-  </tr>
 </table>
+
+> 📌 **Pin manual (penting untuk kesan startup):** buka [github.com/ylxai](https://github.com/ylxai) → Customize pins → pilih `ylx`, `hafiportrait-saas`, `storage-gateway`, `cereblix`.
 
 ## 🏆 Achievements
 
@@ -97,6 +99,7 @@ Full-stack developer building **photography SaaS platforms** ([Hafiportrait](htt
 ---
 
 <p align="center">
-  <b>Let's build something great together.</b><br />
-  <code>npm i -g ambition && npx passion --recursive</code> 🚀
+  <b>YLX — Let's build something photographers love.</b><br />
+  🌐 <a href="https://ylex.my.id">ylex.my.id</a> · 💼 Founder: Irvan Nandika · 📍 Indonesia<br />
+  <code>npx ylx --ship --fast</code> 🚀
 </p>
